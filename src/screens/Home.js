@@ -150,7 +150,7 @@ function Home() {
       {/* fooditems */}
 
       <div style={{ overflow: "hidden" }}>
-        {foodcat !== []
+        {foodcat !== null
           ? foodcat.map((data) => {
               return (
                 <div className="row mb-5 p-3">
